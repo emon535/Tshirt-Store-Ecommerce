@@ -1,6 +1,7 @@
 {
   "name": "turing",
   "version": "0.1.0",
+  "homepage": "http://emon535.github.io/turing_shopmate",
   "private": true,
   "dependencies": {
     "react": "16.8.6",
