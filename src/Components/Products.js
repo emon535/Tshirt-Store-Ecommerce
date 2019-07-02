@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
-import DataService from '../Services/DataService/DataService';
 
 class Products extends Component {
 
     constructor(props) {
-        super(props);
-
+        super(props)
     }
 
     componentDidMount() {
-        let data = DataService.getRequiredData();
-        console.log("get required data", data)
+        console.log("get required data")
     }
 
 
