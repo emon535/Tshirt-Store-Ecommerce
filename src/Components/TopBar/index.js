@@ -13,6 +13,7 @@ import {
     DropdownItem
 } from 'reactstrap';
 
+import "./topbar.css";
 
 const TopBar = (props) => {
 
@@ -22,11 +23,11 @@ const TopBar = (props) => {
 
     return (
         <React.Fragment>
-            <Navbar color="dark" dark expand="md">
+            <Navbar expand="md">
                 <NavbarBrand href="/">TShirt Online Shop</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className="ml-auto" navbar>
+                    <Nav className="ml-auto navbar-nav nav-fill w-100" navbar>
                         <NavItem>
                             <NavLink href="/components/">Men</NavLink>
                         </NavItem>
@@ -38,6 +39,12 @@ const TopBar = (props) => {
                         </NavItem>
                         <NavItem>
                             <NavLink href="">Shoes</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="">Brands</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="">Brands</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="">Brands</NavLink>

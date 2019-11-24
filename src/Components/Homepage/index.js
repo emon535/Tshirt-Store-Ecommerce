@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TopBar from './../TopBar';
+import Footer from '../Footer';
 
 
 class Homepage extends Component {
@@ -17,8 +18,10 @@ class Homepage extends Component {
         return (
             <React.Fragment>
                 <TopBar />
+
                 <h1>Homepage</h1>
 
+                <Footer message="Copyright@ Foysal Ahmed Emon" />
             </React.Fragment>
         )
     }
